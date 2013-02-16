@@ -1,0 +1,10 @@
+{
+    "articles": [
+        {
+            "title": "Why every Coding Convention blows",
+            "date_published": "2013-02-15",
+            "summary": "Article disputing weak points of coding conventions and doing guess-work about how they might be resolved in the future.",
+            "html": "partials/articles/why_every_coding_convention_blows.html"
+        }
+    ]
+}

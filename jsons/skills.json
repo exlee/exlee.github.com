@@ -1,0 +1,412 @@
+{
+    "skills": [
+        {
+            "category_name": "PHP Frameworks",
+            "skills": [
+                {
+                    "name": "Zend",
+                    "url": "http://framework.zend.com/",
+                    "tooltip": "Done few sites in 1.X. Not my favourite, but I know it well.",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "Kohana",
+                    "url": "http://kohanaframework.org/",
+                    "tooltip": "This one used to be a monster. Can fix it for you, but won't recommend it.",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "CodeIgniter",
+                    "url": "http://ellislab.com/codeigniter",
+                    "tooltip": "Did some discovery and was quite satisfied with, went for the Laravel instead.",
+                    "commercial_experience": false,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "Laravel",
+                    "url": "http://laravel.com/",
+                    "tooltip": "Framework with very thoughtful architectural design which can be compared to Python's Django or Perl's Catalyst",
+                    "commercial_experience": false,
+                    "best": false,
+                    "love": true
+                }
+
+            ]
+        },
+        {
+            "category_name": "Big name OO languages",
+            "skills": [
+                {
+                    "name": "Java",
+                    "url": "http://www.java.com/",
+                    "tooltip": "Did some personal projects and small GUI tools for use with business. I also know Java Security.",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "C#",
+                    "url": "http://en.wikipedia.org/wiki/C_Sharp_(programming_language)",
+                    "tooltip": "Mostly for security-based projects - strictly academic experience.",
+                    "commercial_experience": false,
+                    "best": false,
+                    "love": false
+                }
+            ]
+        },
+        {
+            "category_name": "Frontend technologies",
+            "skills": [
+                {
+                    "name": "JavaScript",
+                    "url": "http://en.wikipedia.org/wiki/JavaScript",
+                    "tooltip": "Prototype, jQuery even raw AJAX queries and such",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "CoffeeScript",
+                    "url": "http://coffeescript.org/",
+                    "tooltip": "Cleaner JavaScript, I use it when I'm not constrained to pure JavaScript",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "HTML5",
+                    "url": "http://en.wikipedia.org/wiki/HTML5",
+                    "tooltip": "Like SVG, Canvas and stuff, along with Raphael.JS, Kinetic.JS, Paper.js",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "CSS/SASS",
+                    "url": "http://en.wikipedia.org/wiki/Cascading_Style_Sheets",
+                    "tooltip": "I know how it works and I can use it well. I'm not a cross-browser-warrior (but I do know someone who is if that counts)",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "CSS Frameworks",
+                    "url": "http://en.wikipedia.org/wiki/CSS_frameworks",
+                    "tooltip": "Such as HTML5Boilerplate, Twitter Bootstrap and Foundation - been there, seen them, didn't get a t-shirt :(",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                }
+            ]
+        },
+        {
+            "category_name": "Frontend libraries",
+            "skills": [
+                {
+                    "name": "Angular.js",
+                    "url": "http://angularjs.org/",
+                    "tooltip": "MVVM/MVC library by Google. Trivia: this site was made with Angular.js",
+                    "commercial_experience": false,
+                    "best": false,
+                    "love": true
+                },
+                {
+                    "name": "Knockout.js",
+                    "url": "http://knockoutjs.com/",
+                    "tooltip": "MVVM library. Learned it before moving on into Angular.js, it's still a great solution though.",
+                    "commercial_experience": false,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "Node.js",
+                    "url": "http://nodejs.org/",
+                    "tooltip": "While it's not 'pure' frontend library it's a part of frontend stack, which I use",
+                    "commercial_experience": false,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "jQuery",
+                    "url": "http://jquery.com/",
+                    "tooltip": "Done plenty work with it, even wrote a plugin once or twice.",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": true
+                }
+            ]
+        },
+        {
+            "category_name": "Markups that I know",
+            "skills": [
+                {
+                    "name": "HTML",
+                    "url": "http://en.wikipedia.org/wiki/HTML",
+                    "tooltip": "Not only as a variant of XML, but also with knowledge how to create well formed HTML (i.e. don't nest div's in span's and stuff)",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "XML",
+                    "url": "http://en.wikipedia.org/wiki/XML",
+                    "tooltip": "Reading through SAX and DOM, transforming huge amounts of data, mapping, queries using XPATH. There are no XML secrets for me.",
+                    "commercial_experience": true,
+                    "best": true,
+                    "love": true
+                },
+                {
+                    "name": "JSON",
+                    "url": "http://json.org/",
+                    "tooltip": "Serialized not once, not twice. Wan't to see something neat? Go to /jsons/skills.json. And yes - I've typed it!",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                }
+            ]
+        },
+        {
+            "category_name": "Script languages",
+            "skills": [
+                {
+                    "name": "Python",
+                    "url": "http://python.org/",
+                    "tooltip": "Done web apps, tools etc. Once upon a time I developed package manager using Python, but that was long time ago",
+                    "commercial_experience": true,
+                    "best": true,
+                    "love": false
+                },
+                {
+                    "name": "Ruby",
+                    "url": "http://www.ruby-lang.org/",
+                    "tooltip": "Beside doing some development for Redmine (RoR) I also implemented SBQL in Ruby as a part of my Master thesis using reflective features of Ruby",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "PHP",
+                    "url": "http://php.net/",
+                    "tooltip": "If it's PHP it cannot hide from me. Half time of my last 5 years included working with PHP.",
+                    "commercial_experience": true,
+                    "best": true,
+                    "love": false
+                },
+                {
+                    "name": "Perl 5",
+                    "url": "http://www.perl.org/",
+                    "tooltip": "Done some small tools and live e-mail parser and rewriter - and it worked well",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": true
+                }
+            ]
+        },
+        {
+            "category_name": "Databases",
+            "skills": [
+                {
+                    "name": "SQL",
+                    "url": "http://en.wikipedia.org/wiki/SQL",
+                    "tooltip": "I am expert in constructing complex queries and optimizing them.",
+                    "commercial_experience": true,
+                    "best": true,
+                    "love": false
+                },
+                {
+                    "name": "MySQL",
+                    "url": "http://www.mysql.com/",
+                    "tooltip": "Beside SQL I also know database engine quirks for MySQL.",
+                    "commercial_experience": true,
+                    "best": true,
+                    "love": false
+                },
+                {
+                    "name": "PostgreSQL",
+                    "url": "http://www.postgresql.org/",
+                    "tooltip": "I optimized database, tuned profilers and even wrote my own b-tree and hashed indexes.",
+                    "commercial_experience": true,
+                    "best": true,
+                    "love": false
+                },
+                {
+                    "name": "SQlite",
+                    "url": "http://www.sqlite.org/",
+                    "tooltip": "I know how to handle it but it gives me creeps.",
+                    "commercial_experience": false,
+                    "best": false,
+                    "love": false
+                }
+            ]
+        },
+        {
+            "category_name": "Server-side-technologies",
+            "skills": [
+                {
+                    "name": "Linux",
+                    "url": "http://en.wikipedia.org/wiki/Linux",
+                    "tooltip": "My commercial experience includes setting up Debian and CentOS on bunch of machines. On desktop I used Fedora, Ubuntu and (long time ago) Arch, Gentoo and LFS",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "Apache",
+                    "url": "http://www.apache.org/",
+                    "tooltip": "I've set up dozens of those along with memory configuration, optimization etc.",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "Databases",
+                    "url": "http://en.wikipedia.org/wiki/Database",
+                    "tooltip": "I know configuration quirks, server side optimization and did some really crazy stuff like master-master replication",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "Clustering",
+                    "url": "http://en.wikipedia.org/wiki/Computer_cluster",
+                    "tooltip": "It's something like cloud, but I knew on which server my software worked on",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "Monitoring",
+                    "url": "http://en.wikipedia.org/wiki/Network_monitoring_system",
+                    "tooltip": "Deployed Munin, Zabbix and custom monitoring solutions. Tried Nagios, but didn't like it.",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                }
+            ]
+        },
+        {
+            "category_name": "Design/concept technologies",
+            "skills": [
+                {
+                    "name": "ERD",
+                    "url": "http://en.wikipedia.org/wiki/Entity-relationship_diagram",
+                    "tooltip": "When setting up a new app I often design it beforehand using ERD",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "UML",
+                    "url": "http://en.wikipedia.org/wiki/Unified_Modeling_Language",
+                    "tooltip": "Even though I rarely needed it, it helps me during design works",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "ORM",
+                    "url": "http://orm.net/",
+                    "tooltip": "ORM like in Object Role Modelling - design technique based on existing data - helps in conceptual modelling - used it for requirements discovery",
+                    "commercial_experience": false,
+                    "best": false,
+                    "love": true
+                },
+                {
+                    "name": "BPMN",
+                    "url": "http://en.wikipedia.org/wiki/Business_Process_Model_and_Notation",
+                    "tooltip": "It served me well for discussions with clients, in my opinion it is cleaner than flowcharts.",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "MQ",
+                    "url": "http://en.wikipedia.org/wiki/Message_queue",
+                    "tooltip": "I really like the concept, but had only single chance to deploy it and did so using RabbitMQ",
+                    "commercial_experience": true,
+                    "best": false,
+                    "love": false
+                }
+            ]
+        },
+        {
+            "category_name": "Tools",
+            "skills": [
+                {
+                    "name": "VIM",
+                    "url": "http://www.vim.org/",
+                    "tooltip": "I am bearer of VIM curse - no other editor satisfies my anymore",
+                    "commercial_experience": true,
+                    "best": true,
+                    "love": true
+                },
+                {
+                    "name": "Brunch",
+                    "url": "http://brunch.io/",
+                    "tooltip": "HTML5 stack tool, which help building websites.",
+                    "commercial_experience": false,
+                    "best": false,
+                    "love": true
+                },
+                {
+                    "name": "Git/Hg/SVN",
+                    "url": "http://en.wikipedia.org/wiki/Revision_control",
+                    "tooltip": "I worked with each of this systems. Currently my VC of choice is Git. Also I had setup central repositories for Mercurial and SVN.",
+                    "commercial_experience": true,
+                    "best": true,
+                    "love": false
+                }
+            ]
+        },
+        {
+            "category_name": "Misc stuff",
+            "skills": [
+                {
+                    "name": "Erlang",
+                    "url": "http://www.erlang.org/",
+                    "tooltip": "Learned since I wanted to try different programming paradigm. Unfortunatelly I have absolutely nothing I could do in Erlang",
+                    "commercial_experience": false,
+                    "best": false,
+                    "love": true
+                },
+                {
+                    "name": "Prolog",
+                    "url": "http://en.wikipedia.org/wiki/Prolog",
+                    "tooltip": "Hated it when learned it, loved it when returned to it. Great for solving logic puzzles and some quite specialized solutions.",
+                    "commercial_experience": false,
+                    "best": false,
+                    "love": true
+                },
+                {
+                    "name": "Brainf*ck",
+                    "url": "http://en.wikipedia.org/wiki/Brainfuck",
+                    "tooltip": "Inspired by the name, it's nice puzzle-language. It broadens horizonts.",
+                    "commercial_experience": false,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "Ook!",
+                    "url": "http://esolangs.org/wiki/Ook!",
+                    "tooltip": "Very similar to Brainf*ck, but I had always Discworld feeling when using it",
+                    "commercial_experience": false,
+                    "best": false,
+                    "love": false
+                },
+                {
+                    "name": "LOLCode",
+                    "url": "http://lolcode.com/",
+                    "tooltip": "I laugh everytime I read the docs.",
+                    "commercial_experience": false,
+                    "best": false,
+                    "love": false
+                }
+            ]
+        }
+    ]
+}

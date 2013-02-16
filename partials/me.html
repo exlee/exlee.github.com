@@ -1,0 +1,54 @@
+
+<div class="span10 offset1">
+  <h3 class="centered">Something about me</h3>
+  <div class="media">
+    <div class="pull-left">
+      <div class="media-object"><img src="img/me.png" width="150" class="img-polaroid"/></div>
+    </div>
+    <div class="media-body">
+      <p>There are people, sometimes called globetrotters, who try to see everything that is to see. They travel great distances and look for new places and sights. From their voyages they bring experience through which they can amuse and teach us something new about the world.</p>
+      <p>
+        Above is pretty much true about me, however I don't tend to travel through the world but through the IT solutions.
+        I find and recognize them, whether it's new programming language, coding paradigm, framework or tool set and then make use of this knowledge to deliver high quality end-products to people who wants.
+      </p>
+      <p>
+        My name is Przemysław Kamiński - you can also find my trace under nicknames 'XLII' and 'exlee'. In IT field I do coding, software architecture design, PM and trainings.
+        When providing solutions I'm obsessed with quality and novelty and I rather
+        not do something twice. When coding I'm follower of KISS and DRY principles.
+      </p>
+      <p>Personal stuff? I got 5 years of commercial IT experience (and as much again as a hobbyist), MSc in Software Engineering to defend (it's undergoing formal process), I'm certified business trainer and I love my family and computer games.</p>
+    </div>
+  </div>
+  <hr/>
+  <h3 class="centered">Braggin'. <small>Hover over technology for more info</small></h3>
+  <div class="row">
+    <div class="span10">
+      <p>
+        <h5>Legend</h5><span class="badge-wrapper"><span class="badge badge-info">X</span></span>&nbsp; &mdash; I have commercial experience with this technology i.e. real money were involved.<br/><span class="badge-wrapper"><span class="badge badge-love">&hearts;</span></span>&nbsp; &mdash; I love this technology and can recommend it for use.<br/><span class="badge-wrapper"><span class="badge badge-best">&Omega;</span></span>&nbsp; &mdash; I am ridicoulous overconfident in my skills in this technology. Read:&nbsp;<i>I am teh Wizard.</i>
+      </p>
+      <hr/>
+    </div>
+  </div>
+  <div ng-repeat="partition in skills" ng-cloak="ng-cloak" class="row skills">
+    <div ng-repeat="category in partition" class="span2 {{ $index &gt; 0 &amp;&amp; &quot;offset2&quot; }}">
+      <table class="table">
+        <tr>
+          <th colspan="2">{{category.category_name}}</th>
+        </tr>
+        <tr ng-repeat="skill in category.skills" ui-jq="tooltip" data-original-title=" {{skill.tooltip}} ">
+          <td><a href="{{skill.url}}">{{skill.name}}</a></td>
+          <td class="badges"><span ng-show="skill.commercial_experience" class="badge-wrapper"><span class="badge badge-info">X</span></span><span ng-show="skill.love" class="badge-wrapper"><span class="badge badge-love">&hearts;</span></span><span ng-show="skill.best" class="badge-wrapper"><span class="badge badge-best">&Omega;</span></span></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span6 offset2 centered">
+      <p>
+        ...and even more, but it would be preposterous to 
+        name every technology I've encountered, so if you have
+        any questions you can <a href="#contact">ask</a>.
+      </p>
+    </div>
+  </div>
+</div>

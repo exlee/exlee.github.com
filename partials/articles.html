@@ -1,0 +1,10 @@
+
+<div ng-cloak="ng-cloak" class="span10 offset1">
+  <div ng-repeat="article in articles" class="articles">
+    <div class="centered title">
+      <h3>{{article.title}} <small>({{article.date_published}})</small></h3>
+    </div>
+    <div ng-include="article.html"></div>
+    <div ng-include="'partials/article_footer.html'"></div>
+  </div>
+</div>
