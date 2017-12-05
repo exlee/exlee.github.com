@@ -1,0 +1,248 @@
+/* -*- css-indent-offset: 2; -*- */
+
+body {
+  background-color: #fff;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 300;
+}
+
+.orange {
+  color: #FF5A00;
+}
+
+.yellow {
+  color: #FFC000;
+}
+
+.green {
+    color: #31B946;
+}
+
+h1 {
+  font-size: 48px;
+  margin-top: 30px;
+  letter-spacing: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+h1:before {
+  border-top: 10px solid #ff5500;
+  content: "";
+  margin: 0 auto;
+  /* this centers the line to the full width specified */
+  position: absolute;
+  /* positioning must be absolute here, and relative positioning must be applied to the parent */
+  top: 35%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+h1 span {
+  /* to hide the lines from behind the text, you have to set the background color the same as the container */
+  background: #fff;
+  padding: 0 55px;
+}
+
+
+h2 {
+  color: #ff5a00;
+}
+
+.portfolio h2 {
+  text-align: center;
+  font-weight: 700;
+  margin: 25px auto;
+}
+
+.portfolio h3,h4 {
+  text-transform: uppercase;
+  color: #ff5a00;
+}
+.portfolio h2:before {
+  content: ""
+}
+.portfolio h3:before {
+  content: "+ "
+}
+.portfolio h4:before {
+  content: "."
+}
+
+.emphasis {
+  font-weight: bolder;
+}
+
+.portfolio h4 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+h2.disclaimer {
+  text-align: center;
+  color: black;
+  font-weight: 300;
+}
+
+h3, h4,h5 {
+  font-size: 24;
+  text-transform: upperacase;
+
+}
+
+h3.title {
+  font-weight: 300;
+}
+
+h3.headline {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.spacer {
+  height: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.rightcol > h3 {
+  padding-top: 10px;
+}
+
+.info > div {
+  padding: 20px;
+}
+
+a.button-orange {
+  color: #fff;
+  background-color: #FF5A00;
+  padding: 5px 75px;
+  display: inline-block;
+  font-size: 40px;
+}
+
+
+
+a.button-orange:hover, a.button-yellow:hover{ text-decoration: none; }
+a.button-orange:focus, a.button-yellow:focus{ text-decoration: none; }
+a.button-orange:active, a.button-yellow:active{ text-decoration: none; }
+
+a.button-yellow {
+  color: #230E00;
+  background-color: #FFC000;
+  padding: 10px 50px;
+  display: inline-block;
+  font-size: 26px;
+  width: 30%;
+  text-align: center;
+}
+
+
+a.button-yellow + a.button-yellow {
+  margin-left: 40px;
+}
+
+.find-me {
+  margin: 15px 0;
+}
+
+.social-links {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.relative {
+  position: relative;
+}
+
+.header-img {
+  position: absolute;
+  top: -94px;
+  left: 15px;
+  z-index: 0;
+}
+
+.portfolio-img {
+  position: absolute;
+  top: -100px;
+  left: 15px;
+  z-index: 0;
+}
+
+h1.relative {
+  z-index: 2;
+}
+
+.samples-header {
+  height: 141px;
+  display: inline-block;
+  width: 100%;
+  line-height: 200px;
+}
+
+.portfolio-header {
+  height: 141px;
+  display: inline-block;
+  width: 100%;
+  line-height: 200px;
+}
+
+.gist {
+  width: 150px;
+  height: 150px;
+  background-color: #FF5500;
+  /*background: url('../images/gist.png') scroll center center no-repeat #FFC000;*/
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  color: #230E00;
+  padding: 0 10px;
+}
+
+.screen {
+  width: 150px;
+  height: 150px;
+  background-color: #FF5500;
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center
+}
+
+.gist:hover {
+  text-decoration: none;
+  color: #230E00;
+}
+
+.gist, .screen {
+  margin: 20px;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.screen img {
+  width: 80%;
+}
+
+canvas {
+ display: block;  /* prevents scrollbar */
+/* width: 100vw;
+ height: 100vh;*/
+}
+
+p.status > span {
+  color: #ff5500;
+  font-weight: 400;
+}
